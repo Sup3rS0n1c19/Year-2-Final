@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E6EF5D4C-CA69-4E60-ADB7-21F9E5BFC5FE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Riget_Zoo_Adventures</RootNamespace>
+    <AssemblyName>Riget Zoo Adventures</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Animal Information.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Animal Information.Designer.cs">
+      <DependentUpon>Animal Information.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Booking.cs" />
+    <Compile Include="Customer.cs" />
+    <Compile Include="Elephant Information.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Elephant Information.Designer.cs">
+      <DependentUpon>Elephant Information.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Emu Information.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Emu Information.Designer.cs">
+      <DependentUpon>Emu Information.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Flamingo Information.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Flamingo Information.Designer.cs">
+      <DependentUpon>Flamingo Information.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Front Page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Front Page.Designer.cs">
+      <DependentUpon>Front Page.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hotel Booking.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hotel Booking.Designer.cs">
+      <DependentUpon>Hotel Booking.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lion Information.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lion Information.Designer.cs">
+      <DependentUpon>Lion Information.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Macaw Information.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Macaw Information.Designer.cs">
+      <DependentUpon>Macaw Information.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Panda Information.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Panda Information.Designer.cs">
+      <DependentUpon>Panda Information.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Register.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Register.Designer.cs">
+      <DependentUpon>Register.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home Page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home Page.Designer.cs">
+      <DependentUpon>Home Page.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hotel Information.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hotel Information.Designer.cs">
+      <DependentUpon>Hotel Information.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Ticket Booking.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ticket Booking.Designer.cs">
+      <DependentUpon>Ticket Booking.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ticket.cs" />
+    <Compile Include="Zoo Information.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Zoo Information.Designer.cs">
+      <DependentUpon>Zoo Information.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Animal Information.resx">
+      <DependentUpon>Animal Information.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Elephant Information.resx">
+      <DependentUpon>Elephant Information.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Emu Information.resx">
+      <DependentUpon>Emu Information.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Flamingo Information.resx">
+      <DependentUpon>Flamingo Information.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Front Page.resx">
+      <DependentUpon>Front Page.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hotel Booking.resx">
+      <DependentUpon>Hotel Booking.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hotel Information.resx">
+      <DependentUpon>Hotel Information.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lion Information.resx">
+      <DependentUpon>Lion Information.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Macaw Information.resx">
+      <DependentUpon>Macaw Information.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panda Information.resx">
+      <DependentUpon>Panda Information.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Register.resx">
+      <DependentUpon>Register.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home Page.resx">
+      <DependentUpon>Home Page.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Ticket Booking.resx">
+      <DependentUpon>Ticket Booking.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Zoo Information.resx">
+      <DependentUpon>Zoo Information.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
