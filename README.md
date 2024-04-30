@@ -6,3 +6,6 @@ Make sure the file is unblocked. This will ensure that the application encounter
 After you've successfully loaded up the solution you should:
 Create a database called Customer.mdf in your local directory.
 Press "Ctrl + H" which is the quick bind for the action "Find and Replace"
+
+This is a short video on how the application works:
+https://www.youtube.com/watch?v=QUyrk2oyjKA
